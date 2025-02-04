@@ -1,0 +1,55 @@
+# macOS system files
+.DS_Store
+*.DS_Store
+
+# Neovim swap/session files
+*.swp
+*.swo
+*.swn
+*.swm
+.session
+.netrw*
+.nvimlog
+.nvimgdb
+nvim.conf
+
+# Python
+*.py[cod]
+__pycache__/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environment directories
+venv/
+.venv/
+env/
+venv*/  # if you use multiple venvs
+pip-wheel-metadata/
+
+# Pyright or local config files
+pyrightconfig.json
+# Uncomment if you want to ignore additional config:
+# .mypy_cache/
+# pylintrc
+
+# Environment variables
+.env
+.env.*
+!.env.example  # keep the example env file in repo
+
+# Editor/IDE config
+.idea/
+.vscode/
+.nvim/
+*.nvim
+*.nvim.*
+**/.nvim/
+**/*.nvim/
+
+# Misc
+Thumbs.db
+*.log
+*.bak
+*.orig
+

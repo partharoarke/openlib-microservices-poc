@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+psycopg2-binary
+gunicorn
+kafka-python-ng
+six
+
+

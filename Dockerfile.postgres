@@ -1,0 +1,10 @@
+FROM postgres:17.2-bookworm
+
+# Example: Install an extension
+RUN apt-get update && apt-get install -y postgresql-contrib
+
+# Example: Add custom configuration (optional)
+COPY config/postgres.conf /etc/postgresql/postgresql.conf
+
+CMD ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]
+
